@@ -1,28 +1,24 @@
-# Turborepo starter
+# VideoSync Web Application
 
-This is an official starter Turborepo.
+VideoSync is a real-time video conferencing web application built using WebRTC (Web Real-Time Communication) technology. With VideoSync, users can easily initiate video calls, host virtual meetings, and collaborate seamlessly from anywhere with an internet connection.
 
-## Using this example
+## Features:
+- **Real-Time Video Calls:** Enjoy high-quality video calls with minimal latency, providing a smooth communication experience.
+- **Multi-Platform Support:** Access VideoSync from any modern web browser on desktop, tablet, or mobile devices.
+- **Secure Communication:** VideoSync utilizes end-to-end encryption to ensure the privacy and security of your conversations.
+- **Simple Interface:** Intuitive user interface designed for ease of use, making it accessible for users of all technical levels.
+- **Customizable Settings:** Adjust video and audio settings to suit your preferences and optimize your conferencing experience.
+- **Screen Sharing:** Share your screen with other participants to facilitate presentations, demos, and collaborative work.
+- **Chat Functionality:** In-meeting chat feature allows participants to exchange messages, URLs, and files during the conference.
+- **Cross-Platform Compatibility:** Seamlessly collaborate with users across different platforms and devices.
 
-Run the following command:
+## Getting Started:
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Run the application using `npm start`.
+4. Access the application through your web browser at `http://localhost:3000`.
 
-```sh
-npx create-turbo@latest
-```
-
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Start conferencing with VideoSync today and stay connected with your team, clients, and loved ones, no matter where they are!
 
 ### Utilities
 
